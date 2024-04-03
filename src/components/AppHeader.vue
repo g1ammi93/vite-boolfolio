@@ -15,10 +15,10 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <RouterLink class="nav-link active" to="/">Home</RouterLink>
+                        <RouterLink class="nav-link active" :to="{ name: 'home' }">Home</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link active" to="/contact-us">Contattaci</RouterLink>
+                        <RouterLink class="nav-link active" :to="{ name: 'contact-us' }">Contattaci</RouterLink>
                     </li>
 
                 </ul>
